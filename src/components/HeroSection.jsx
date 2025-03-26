@@ -4,9 +4,9 @@ import { FaArrowRight } from "react-icons/fa";
 const HeroSection = () => {
   return (
     <div>
-      <div className="bg-black h-180 md:h-140 m-5 rounded-3xl md:mt-10 md:mx-12 relative overflow-hidden">
+      <div className="bg-black h-180  m-5 rounded-3xl  md:mx-12 relative overflow-hidden mt-18 md:mt-24 z-0 md:h-150 ">
         <video
-          className="absolute top-0 left-1/2 w-auto min-w-full min-h-full transform -translate-x-1/2 object-cover"
+          className="absolute top-0 left-1/2 w-auto min-w-full min-h-full transform -translate-x-1/2 object-fill"
           autoPlay
           loop
           muted
@@ -14,8 +14,8 @@ const HeroSection = () => {
           <source src="/events.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="flex flex-col  items-start justify-end h-160 my-10 mx-6 relative md:mx-16 md:my-16">
-          <div className=" w-80 md:w-96">
+        <div className="flex flex-col  items-start justify-end md:justify-center h-160 my-10 mx-6 relative md:mx-16 md:my-16 ">
+          <div className="w-80 md:w-96">
             <div className="text-white font-bold text-3xl  px-2 md:text-5xl">
               Elegance and timeless moments
             </div>
