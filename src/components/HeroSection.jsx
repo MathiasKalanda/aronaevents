@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 const HeroSection = () => {
   return (
     <div>
-      <div className="bg-black h-110 md:h-140 m-5 rounded-3xl md:mt-10 md:mx-12 relative overflow-hidden">
+      <div className="bg-black h-150 md:h-140 m-5 rounded-3xl md:mt-10 md:mx-12 relative overflow-hidden">
         <video
           className="absolute top-0 left-1/2 w-auto min-w-full min-h-full transform -translate-x-1/2 object-cover"
           autoPlay
