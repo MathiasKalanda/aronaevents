@@ -14,7 +14,7 @@ const HeroSection = () => {
           <source src="/events.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="flex flex-col  items-start justify-end h-100 m-10 relative md:mx-16 md:my-16">
+        <div className="flex flex-col  items-start justify-end h-160 m-10 relative md:mx-16 md:my-16">
           <div className=" w-80 md:w-96">
             <div className="text-white font-bold text-3xl  px-2 md:text-5xl">
               Elegance and timeless moments
