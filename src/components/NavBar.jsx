@@ -3,6 +3,7 @@ import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
 import MobileMenu from "./MobileMenu";
+import { Link } from "@tanstack/react-router";
 
 const NavBar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -14,15 +15,26 @@ const NavBar = () => {
   return (
     <div className="fixed top-0 left-0 w-full z-50 bg-slate-100 ">
       <div className="flex flex-row justify-between items-center p-5">
-        <div className="ml-5 font-bold text-lg text-red-600">Arona Events</div>
+        <div className="ml-5 font-bold text-lg text-black">Arona Events</div>
 
         <div className="navbar hidden md:flex flex-row justify-between items-center gap-10">
           <ul className="flex flex-row justify-between items-center gap-10">
-            <li className="ul">Home</li>
-            <li className="ul">About</li>
-            <li className="ul">Service</li>
-            <li className="ul">Products</li>
-            <li className="ul">Decor</li>
+            <Link to="/" className="ul">
+              Home
+            </Link>
+
+            <Link to="/about" className="ul">
+              About
+            </Link>
+            <Link to="/services" className="ul">
+              Service
+            </Link>
+            <Link to="/products" className="ul">
+              Products
+            </Link>
+            <Link to="/decor" className="ul">
+              Decor
+            </Link>
           </ul>
         </div>
 
@@ -60,7 +72,7 @@ const NavBar = () => {
         {/* Mobile Menu Overlay */}
         {isOpen && (
           <div
-            className="fixed top-17 left-0 w-full h-full bg-white z-50 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out"
+            className="fixed top-17 left-0 w-full h-full bg-slate-100 z-50 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out md:hidden"
             onClick={handleMenu}
           >
             <MobileMenu />

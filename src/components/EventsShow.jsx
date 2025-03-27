@@ -7,15 +7,47 @@ const EventsShow = () => {
   const [direction, setDirection] = useState(1); // 1 for right, -1 for left
 
   const images = [
-    "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRgSdLODK74_bgYQoPWTxxFCAXUY0LKRbhazgyXTS41RLh9NB9c",
-    "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTWbJJWAkYQH1Z8IaY6Zaz40gAoxIYZizQpksyl34F8aY0hofu",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9f31uwxDWjT5ym45oyCJbvEXg2cbyGker-PiaVdgbxPZ_1Q-",
-    "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTWbJJWAkYQH1Z8IaY6Zaz40gAoxIYZizQpksyl34F8aY0hofu",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9f31uwxDWjT5ym45oyCJbvEXg2cbyGker-PiaVdgbxPZ_1Q-",
-    "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTWbJJWAkYQH1Z8IaY6Zaz40gAoxIYZizQpksyl34F8aY0hofu",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9f31uwxDWjT5ym45oyCJbvEXg2cbyGker-PiaVdgbxPZ_1Q-",
+    {
+      imgSrc:
+        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRgSdLODK74_bgYQoPWTxxFCAXUY0LKRbhazgyXTS41RLh9NB9c",
+      description: "A friendly gathering with warm conversations.",
+    },
+    {
+      imgSrc:
+        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTWbJJWAkYQH1Z8IaY6Zaz40gAoxIYZizQpksyl34F8aY0hofu",
+      description: "A cultural festival bringing people together.",
+    },
+    {
+      imgSrc:
+        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRgSdLODK74_bgYQoPWTxxFCAXUY0LKRbhazgyXTS41RLh9NB9c",
+      description: "A vibrant party full of life and energy.",
+    },
+    {
+      imgSrc:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3jCqc_OlLicKexv8GaZZM3FzxGhvJY3_VCQ&s",
+      description: "A beautiful wedding ceremony filled with love.",
+    },
+    {
+      imgSrc:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9f31uwxDWjT5ym45oyCJbvEXg2cbyGker-PiaVdgbxPZ_1Q-",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3jCqc_OlLicKexv8GaZZM3FzxGhvJY3_VCQ&s",
+      description: "An engaging conference with industry experts.",
+    },
+    {
+      imgSrc:
+        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTWbJJWAkYQH1Z8IaY6Zaz40gAoxIYZizQpksyl34F8aY0hofu",
+      description: "A joyous birthday celebration for all ages.",
+    },
+    {
+      imgSrc:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9f31uwxDWjT5ym45oyCJbvEXg2cbyGker-PiaVdgbxPZ_1Q-",
+      description: "A thrilling live concert with stunning performances.",
+    },
+    {
+      imgSrc:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9f31uwxDWjT5ym45oyCJbvEXg2cbyGker-PiaVdgbxPZ_1Q-",
+      description: "A cultural festival bringing people together.",
+    },
   ];
 
   useEffect(() => {
@@ -72,16 +104,21 @@ const EventsShow = () => {
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >
-        {images.map((imgSrc, index) => (
-          <div
-            key={index}
-            className="w-56 h-80 flex-shrink-0 rounded-lg overflow-hidden  bg-[#0b1114] shadow-lg shadow-blue-800"
-          >
-            <img
-              src={imgSrc}
-              alt={`Event ${index + 1}`}
-              className="w-full h-full object-cover rounded-2xl"
-            />
+        {images.map((item, index) => (
+          <div className="">
+            <div
+              key={index}
+              className="w-56 h-80 flex-shrink-0 rounded-lg overflow-hidden  bg-[#0b1114] shadow-lg shadow-blue-800"
+            >
+              <img
+                src={item.imgSrc}
+                alt={`Event ${index + 1}`}
+                className="w-full h-full  object-cover rounded-2xl relative"
+              />
+            </div>{" "}
+            {/* <div className=" p-2 text-center text-white text-sm bg-transparent absolute">
+              {item.description}
+            </div> */}
           </div>
         ))}
       </div>
