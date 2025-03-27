@@ -10,18 +10,8 @@ import StageSetup from "./Hire/StageSetup";
 import Photography from "./Hire/Photography";
 import PhotoBooth from "./Hire/PhotoBooth";
 
-const Home = () => (
-  <div className="">
-    <div className="">Hello there</div>
-  </div>
-);
-
-const About = () => <div>Learn more about us on this page.</div>;
-const Services = () => <div>Check out our amazing services.</div>;
-const Contact = () => <div>Get in touch with us here.</div>;
-
 const ProductsHire = () => {
-  const [activeTab, setActiveTab] = useState("home");
+  const [activeTab, setActiveTab] = useState("Decor");
 
   const content = {
     tents: <Tent />,
@@ -62,9 +52,7 @@ const ProductsHire = () => {
           </div>
 
           {/* Content Display */}
-          <div className="p-4 border rounded-lg bg-gray-100">
-            {content[activeTab]}
-          </div>
+          <div className="p-4 rounded-lg">{content[activeTab]}</div>
         </div>
       </div>
     </div>
