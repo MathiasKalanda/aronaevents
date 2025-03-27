@@ -15,36 +15,36 @@ const Footer = () => {
           <div className="text-6xl text-center my-3 mb-10">
             Arona Events <hr className="my-2 font-bold" />
           </div>
-          <div className="grid grid-cols-2 justify-between items-center gap-5">
-            <div className="flex flex-row justify-center items-center gap-4 ">
+          <div className="grid grid-cols-2 justify-between items-center gap-2 mx-1">
+            <div className="flex flex-row justify-center items-center gap-2 ">
               <FaLocationArrow />
               kampala Uganda
             </div>
-            <div className="flex flex-row justify-center items-center gap-4">
+            <div className="flex flex-row justify-center items-center gap-2">
               <FaPhoneAlt />
               +2567890875445
             </div>
-            <div className="flex flex-row justify-center items-center gap-4">
+            <div className="flex flex-row justify-center items-center gap-2">
               <FaWhatsapp />
               +2567890875445
             </div>
-            <div className="flex flex-row justify-center items-center gap-4">
+            <div className="flex flex-row justify-center items-center gap-2">
               <FaTwitter />
               @Aronaevents limited
             </div>
-            <div className="flex flex-row justify-center items-center gap-4">
+            <div className="flex flex-row justify-center items-center gap-2">
               <FaFacebook />
               @Aronaevents limited
             </div>
-            <div className="flex flex-row justify-center items-center gap-4">
+            <div className="flex flex-row justify-center items-center gap-2">
               <FaInstagram />
               @Aronaevents limited
             </div>
-            <div className="flex flex-row justify-center items-center gap-4">
+            <div className="flex flex-row justify-center items-center gap-2">
               <FaYoutube />
               @Aronaevents limited
             </div>
-            <div className="flex flex-row justify-center items-center gap-4">
+            <div className="flex flex-row justify-center items-center gap-2">
               <FaLinkedin />
               @Aronaevents limited
             </div>
