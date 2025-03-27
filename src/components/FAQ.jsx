@@ -7,12 +7,9 @@ const FAQ = () => {
 
   const content = {
     general: <Question1 />,
-
-    MobileToilets: <Question1 />,
-    LedScreens: <Question1 />,
-    Barricades: <Question1 />,
-    StageSetup: <Question1 />,
-    Decor: <Question1 />,
+    Decoration: <Question1 />,
+    Hiring: <Question1 />,
+    Booking: <Question1 />,
   };
 
   return (
@@ -25,7 +22,7 @@ const FAQ = () => {
           </div>
           <div className="p-1  my-5">
             {/* Buttons */}
-            <div className="flex md:flex-row md:gap-0 justify-center items-center  flex-col   gap-2 md:rounded-none rounded-md">
+            <div className="flex md:flex-row md:gap-0 justify-center items-center  flex-row   gap-2 md:rounded-none rounded-md">
               {Object.keys(content).map((tab) => (
                 <div
                   key={tab}
