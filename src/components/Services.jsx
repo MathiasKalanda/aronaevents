@@ -37,7 +37,7 @@ const Services = () => {
               collection, helping associations grow and provide value to their
               members.
             </div>
-            <button className="bg-teal-700 py-2 px-4 mb-4 mt-7 w-3/4 mx-5 rounded-xl hover:bg-teal-900">
+            <button className="bg-teal-700 py-2 px-4 mb-4 mt-3 w-3/4 mx-5 rounded-xl hover:bg-teal-900">
               Learn More
             </button>
           </div>
@@ -58,7 +58,7 @@ const Services = () => {
               collection, helping associations grow and provide value to their
               members.
             </div>
-            <button className="bg-teal-700 py-2 px-4 mb-4 mt-7 w-3/4 mx-5 rounded-xl hover:bg-teal-900">
+            <button className="bg-teal-700 py-2 px-4 mb-4 mt-3 w-3/4 mx-5 rounded-xl hover:bg-teal-900">
               Learn More
             </button>
           </div>
@@ -79,7 +79,7 @@ const Services = () => {
               collection, helping associations grow and provide value to their
               members.
             </div>
-            <button className="bg-teal-700 py-2 px-4 mb-4 mt-7 w-3/4 mx-5 rounded-xl hover:bg-teal-900">
+            <button className="bg-teal-700 py-2 px-4 mb-4 mt-3 w-3/4 mx-5 rounded-xl hover:bg-teal-900">
               Learn More
             </button>
           </div>
@@ -100,7 +100,7 @@ const Services = () => {
               collection, helping associations grow and provide value to their
               members.
             </div>
-            <button className="bg-teal-700 py-2 px-4 mb-4 mt-7 w-3/4 mx-5 rounded-xl hover:bg-teal-900">
+            <button className="bg-teal-700 py-2 px-4 mb-4 mt-3 w-3/4 mx-5 rounded-xl hover:bg-teal-900">
               Learn More
             </button>
           </div>
@@ -121,7 +121,7 @@ const Services = () => {
               collection, helping associations grow and provide value to their
               members.
             </div>
-            <button className="bg-teal-700 py-2 px-4 mb-4 mt-7 w-3/4 mx-5 rounded-xl hover:bg-teal-900">
+            <button className="bg-teal-700 py-2 px-4 mb-4 mt-3 w-3/4 mx-5 rounded-xl hover:bg-teal-900">
               Learn More
             </button>
           </div>
@@ -142,7 +142,7 @@ const Services = () => {
               collection, helping associations grow and provide value to their
               members.
             </div>
-            <button className="bg-teal-700 py-2 px-4 mb-4 mt-7 w-3/4 mx-5 rounded-xl hover:bg-teal-900">
+            <button className="bg-teal-700 py-2 px-4 mb-4 mt-3 w-3/4 mx-5 rounded-xl hover:bg-teal-900">
               Learn More
             </button>
           </div>
