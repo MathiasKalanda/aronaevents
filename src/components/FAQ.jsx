@@ -23,14 +23,14 @@ const FAQ = () => {
           <div className="text-center pt-4 text-3xl font-medium capitalize">
             Frequently Asked Questions
           </div>
-          <div className="p-1 max-w-2xl my-5">
+          <div className="p-1  my-5">
             {/* Buttons */}
-            <div className="flex justify-center items-center">
+            <div className="flex md:flex-row md:gap-0 justify-center items-center  flex-col   gap-2 md:rounded-none rounded-md">
               {Object.keys(content).map((tab) => (
                 <div
                   key={tab}
                   onClick={() => setActiveTab(tab)}
-                  className={`px-4 py-2 hover:bg-gray-200  ${
+                  className={`px-4 py-2 rounded-md hover:bg-gray-200  ${
                     activeTab === tab
                       ? "bg-gray-200 text-black rounded font-semibold"
                       : "bg-gray-100 text-black "

@@ -14,7 +14,8 @@ function RouteComponent() {
   return (
     <div>
       {" "}
-      <HeroSection /> <Mission />
+      <HeroSection />
+      <Mission />
       <EventsShow />
       <Services />
       <ProductsHire />
