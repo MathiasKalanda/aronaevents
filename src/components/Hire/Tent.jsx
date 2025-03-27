@@ -14,10 +14,10 @@ const Tent = () => {
           />
         </div>
         <div className="uppercase font-bold text-xl m-2">Tents of Sizes</div>
-        <div className="font-bold text-md mt-1">
+        <div className="font-bold text-md mt-1 text-center">
           We Have Varient of Tents sizes and design
         </div>
-        <div className="text-center m-5 text-md">
+        <div className="m-5 text-md text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
           praesentium saepe possimus minima repellendus alias accusamus id
           pariatur nam doloremque non.

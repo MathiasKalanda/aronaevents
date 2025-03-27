@@ -16,7 +16,7 @@ const PhotoBooth = () => {
         <div className="uppercase font-bold text-xl m-2">
           Photo Booth of Sizes
         </div>
-        <div className="font-bold text-md mt-1">
+        <div className="font-bold text-md mt-1 text-center">
           We Have Varient of Photo Booth sizes and design
         </div>
         <div className="text-center m-5 text-md">
