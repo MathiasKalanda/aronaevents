@@ -49,9 +49,9 @@ const Footer = () => {
               @Aronaevents limited
             </div>
           </div>
-          <div className="mx-10">
+          <div className="md:mx-10 mx-5">
             <div className="grid grid-cols-2 md:grid-cols-4 py-5">
-              <ul className="m-5">
+              <ul className="m-2 md:m-5">
                 <li className="font-bold text-lg underline">About</li>
 
                 <li className="hover:underline"> Company</li>
@@ -66,7 +66,7 @@ const Footer = () => {
                 <li className="hover:underline">Recommend WildApricot</li>
                 <li className="hover:underline">Personify Portfolio</li>
               </ul>
-              <ul className="m-5">
+              <ul className="m-2 md:m-5">
                 <li className="font-bold text-lg underline">Features</li>
 
                 <li className="hover:underline"> Company</li>
@@ -81,7 +81,7 @@ const Footer = () => {
                 <li className="hover:underline">Recommend WildApricot</li>
                 <li className="hover:underline">Personify Portfolio</li>
               </ul>
-              <ul className="m-5">
+              <ul className="m-2 md:m-5">
                 <li className="font-bold text-lg underline">Services</li>
                 <li className="hover:underline"> Company</li>
                 <li className="hover:underline">Our Team</li>
@@ -95,7 +95,7 @@ const Footer = () => {
                 <li className="hover:underline">Recommend WildApricot</li>
                 <li className="hover:underline">Personify Portfolio</li>
               </ul>
-              <ul className="m-5">
+              <ul className="m-2 md:m-5">
                 <li className="font-bold text-lg underline">Products</li>
 
                 <li className="hover:underline"> Company</li>
