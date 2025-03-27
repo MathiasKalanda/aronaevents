@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection";
 import Mission from "../components/Mission";
 import EventsShow from "../components/EventsShow";
 import Services from "../components/Services";
+import ProductsHire from "../components/ProductsHire";
 
 export const Route = createFileRoute("/")({
   component: RouteComponent,
@@ -15,6 +16,7 @@ function RouteComponent() {
       <HeroSection /> <Mission />
       <EventsShow />
       <Services />
+      <ProductsHire />
     </div>
   );
 }

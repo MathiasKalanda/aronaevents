@@ -19,7 +19,7 @@ const Services = () => {
             memorable experiences for you and your guests.
           </div>
         </div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10 my-15 mx-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 my-15 mx-5 max-w-2xl">
           <div className="flex flex-col justify-center items-center bg-[#fff6ee] rounded-3xl">
             <div className="p-3 text-lg font-bold uppercase text-[#232e2a]">
               Weddings
@@ -29,7 +29,7 @@ const Services = () => {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9f31uwxDWjT5ym45oyCJbvEXg2cbyGker-PiaVdgbxPZ_1Q-"
                 alt=""
-                className="w-52 h-32 rounded-lg"
+                className="w-60 h-42 rounded-lg"
               />
             </div>
             <div className="text-center p-2 mx-3 text-md leading-5 text-[#232e2a]">
@@ -50,7 +50,7 @@ const Services = () => {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9f31uwxDWjT5ym45oyCJbvEXg2cbyGker-PiaVdgbxPZ_1Q-"
                 alt=""
-                className="w-52 h-32 rounded-lg"
+                className="w-60 h-42 rounded-lg"
               />
             </div>
             <div className="text-center p-2 mx-3 text-md leading-5 text-[#232e2a]">
@@ -71,7 +71,7 @@ const Services = () => {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9f31uwxDWjT5ym45oyCJbvEXg2cbyGker-PiaVdgbxPZ_1Q-"
                 alt=""
-                className="w-52 h-32 rounded-lg"
+                className="w-60 h-42 rounded-lg"
               />
             </div>
             <div className="text-center p-2 mx-3 text-md leading-5 text-[#232e2a]">
@@ -92,7 +92,7 @@ const Services = () => {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9f31uwxDWjT5ym45oyCJbvEXg2cbyGker-PiaVdgbxPZ_1Q-"
                 alt=""
-                className="w-52 h-32 rounded-lg"
+                className="w-60 h-42 rounded-lg"
               />
             </div>
             <div className="text-center p-2 mx-3 text-md leading-5 text-[#232e2a]">
@@ -113,7 +113,7 @@ const Services = () => {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9f31uwxDWjT5ym45oyCJbvEXg2cbyGker-PiaVdgbxPZ_1Q-"
                 alt=""
-                className="w-52 h-32 rounded-lg"
+                className="w-60 h-42 rounded-lg"
               />
             </div>
             <div className="text-center p-2 mx-3 text-md leading-5 text-[#232e2a]">
