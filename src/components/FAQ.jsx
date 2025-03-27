@@ -30,10 +30,10 @@ const FAQ = () => {
                 <div
                   key={tab}
                   onClick={() => setActiveTab(tab)}
-                  className={`px-4 py-2 hover:bg-[#002e1d] ${
+                  className={`px-4 py-2 hover:bg-gray-200  ${
                     activeTab === tab
-                      ? "bg-[#002e1d] text-white rounded"
-                      : "bg-gray-300 text-black "
+                      ? "bg-gray-200 text-black rounded font-semibold"
+                      : "bg-gray-100 text-black "
                   }`}
                 >
                   {tab.charAt(0).toUpperCase() + tab.slice(1)}

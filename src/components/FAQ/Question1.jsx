@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { FaArrowDown, FaArrowUp } from "react-icons/fa";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 export default function Question1() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -32,19 +34,20 @@ export default function Question1() {
 
   return (
     <div className="max-w-2xl mx-auto p-6">
-      <h2 className="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
-      <div className="space-y-4">
+      <div className="space-y-2">
         {faqs.map((faq, index) => (
           <div key={index} className="border rounded-lg p-4">
             <button
               onClick={() => toggleFAQ(index)}
-              className="flex justify-between w-full text-left text-lg font-semibold"
+              className="flex justify-between w-full text-left text-lg "
             >
               {faq.question}
-              <span>{openIndex === index ? "▲" : "▼"}</span>
+              <span>
+                {openIndex === index ? <IoIosArrowUp /> : <IoIosArrowDown />}
+              </span>
             </button>
             {openIndex === index && (
-              <p className="mt-2 text-gray-700">{faq.answer}</p>
+              <p className="mt-4 text-black">{faq.answer}</p>
             )}
           </div>
         ))}
